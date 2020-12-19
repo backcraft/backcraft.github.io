@@ -6,7 +6,7 @@
 body {
 	font-family: FuturaLightCTT;
 	background-color: rgba(230, 230, 230);
-	background-image: url(../images/bg.png);
+	background-image: url(../images/bg.jpg);
 	background-position: center center;    
 	background-repeat: no-repeat;    
 	background-attachment: fixed;    
@@ -14,7 +14,7 @@ body {
 }
 
 br {
-	-webkit-touch-callout: none; 
+    -webkit-touch-callout: none; 
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
