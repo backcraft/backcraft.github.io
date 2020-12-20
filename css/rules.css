@@ -11,7 +11,7 @@ body {
 }
 
 br {
-	-webkit-touch-callout: none; 
+    -webkit-touch-callout: none; 
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -20,7 +20,7 @@ br {
 }
 
 #line {
-	background-color: rgba(16, 18, 20, 0.8);
+	background-color: rgba(17, 19, 21, 0.9);
 	width: 100%;
 	min-height: 50px;
 	height: 50px;
