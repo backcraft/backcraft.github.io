@@ -42,6 +42,7 @@ br {
 	user-select: none;
 	z-index: 9999;
 	display: block;
+	backdrop-filter: blur(1.6px);
 }
 
 #backcraft {
