@@ -1,6 +1,7 @@
 RewriteEngine on
 RewriteBase /
-Redirect 301 about/ https://vk.com/@backcraft-guide
+Redirect permanent /about https://vk.com/@backcraft-guide
+Redirect 301 /about https://vk.com/@backcraft-guide
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
 RewriteRule ^([^.]+)\.html$ backcraft.ru/$1 [R=301,L]
 RewriteCond %{REQUEST_URI} !(\.[^./]+)$
