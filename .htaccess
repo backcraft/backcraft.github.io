@@ -6,4 +6,4 @@ RewriteCond %{REQUEST_URI} !(\.[^./]+)$
 RewriteCond %{REQUEST_fileNAME} !-d
 RewriteCond %{REQUEST_fileNAME} !-f
 RewriteRule (.*) /$1.html
-Redirect 301 /about.html https://vk.com/@backcraft-guide
+Redirect 301 /about https://vk.com/@backcraft-guide
