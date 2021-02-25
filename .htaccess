@@ -1,4 +1,3 @@
-Redirect permanent /about https://vk.com/@backcraft-guide
 Redirect 301 /about https://vk.com/@backcraft-guide
 RewriteEngine on
 RewriteBase /
